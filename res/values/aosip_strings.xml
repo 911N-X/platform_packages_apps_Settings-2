@@ -15,6 +15,12 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- AOSiP Updater -->
+    <string name="update_settings_title">AOSiP Updater</string>
+    <string name="update_settings_summary">Check for the latest version of the rom</string>
+    <string name="update_package" translatable="false">org.lineageos.updater</string>
+    <string name="update_activity" translatable="false">org.lineageos.updater.UpdatesActivity</string>
+
     <!-- DerpFest version in About phone -->
     <string name="rom_version_title">DerpFest version</string>
 
@@ -37,26 +43,30 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 
-    <!-- DerpFest extra data -->
     <!-- DerpFest Build date -->
     <string name="derp_build_date">Build date</string>
     <string name="derp_build_date_default">2019-11-01-0000</string>
+
     <!-- About phone screen, device maintainer name -->
     <string name="device_maintainer">Who to blame (Maintainer)</string>
+  
     <!-- Build types, now with translations -->
     <string name="derp_type_official">Official</string>
     <string name="derp_type_unofficial">Unofficial</string>
     <string name="derp_type_unknown">Nu-Derpefied</string>
     <string name="derp_releasetype_skeleton">%s (%s)</string>
+
     <!-- Build type info -->
     <string name="derp_ri_title_buildtype">Build Type</string>
     <string name="derp_ri_summary_buildtype">Your build is %s... or %s.</string>
     <string name="derp_pref_title_rominfo">ROM Info</string>
 
+    <!-- Density category -->
+    <string name="density_category">Density options</string>
+
     <!-- Device Parts -->
     <string name="device_part_title">Device features</string>
     <string name="device_part_summary">Device specific features</string>
-
     <string name="battery_temp">Battery temperature</string>
 
     <!-- App details: open play store link if app is user installed -->
@@ -64,7 +74,7 @@
 
     <!-- DerpQuest Settings strings -->
     <string name="derp_settings_title">DerpQuest</string>
-    <string name="derp_settings_summary">Where the buggy features are located</string>
+    <string name="derp_settings_summary">In Kronic we trust...</string>
     <string name="derp_extras_qs_title">Quick Settings</string>
 
     <!-- Quick unlock -->
